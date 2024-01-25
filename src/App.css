@@ -2,6 +2,38 @@
   text-align: center;
 }
 
+.bo{
+  
+}
+.characters-thumb{
+  display: flex;
+  align-items:center ;
+  flex-direction: row;
+  gap: 10px;
+  box-sizing: border-box;
+}
+.pico{
+  width: 100px;
+  border-radius: 10px;
+}
+.borders{
+  border: 3px solid black;
+}
+/* .characters{
+  display: flex;
+  
+  gap: 100px;
+} */
+img:hover {
+  transform: scale(1.1);
+  box-sizing: border-box;/* Chrome, Safari, Opera */
+ 
+}
+li{
+  list-style: none;
+ margin-bottom: 20px;
+  
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
